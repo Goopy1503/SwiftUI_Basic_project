@@ -32,7 +32,9 @@ struct _4_AnimationBasic3: View {
                 
             } label: {
                 Text("Button")
+                    .font(.title)
             }//】 Button
+            .scaleEffect(Animation ? 1.5 : 0.7)
             
             AnimationBox(startColor: Color.yellow, finishColor: Color.mint,
                      startLocation: .topLeading, finishLocation: .bottomTrailing,
