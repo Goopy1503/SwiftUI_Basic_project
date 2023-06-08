@@ -23,13 +23,13 @@ struct nothing2: View {
             Button {
                 activeSheet = .first
             } label: {
-                Text("Activate first sheet")
+                CircleButton(buttonColor: .red, buttonText: "first")
             }
             
             Button {
                 activeSheet = .second
             } label: {
-                Text("Activate second sheet")
+                CircleButton(buttonColor: .blue, buttonText: "second")
             }
             Spacer()
         }//】 VStack
