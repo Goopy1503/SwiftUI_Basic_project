@@ -72,7 +72,7 @@ struct AnimationBox: View {
     var body: some View {
         
         VStack{
-            RoundedRectangle(cornerRadius: 30)
+            RoundedRectangle(cornerRadius: Animation ? 30 : 70)
                 .foregroundColor(Animation ? startColor : finishColor)
                 .frame(width: 100, height: 100)
                 .rotationEffect(Angle(degrees: Animation ? 0 : 720))
