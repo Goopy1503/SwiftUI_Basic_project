@@ -19,19 +19,22 @@ struct nothing2: View {
     @State var activeSheet: ActiveSheet?
     
     var body: some View {
-        VStack {
-            Button {
-                activeSheet = .first
-            } label: {
-                CircleButton(buttonColor: .red, buttonText: "first")
-                    .frame(width: 30, height: 30)
-            }
-            
-            Button {
-                activeSheet = .second
-            } label: {
-                CircleButton(buttonColor: .blue, buttonText: "second")
-            }
+        VStack{
+            HStack {
+                Button {
+                    activeSheet = .first
+                } label: {
+                    CircleButton(buttonColor: .red, buttonText: "first")
+                    
+                }
+                
+                Button {
+                    activeSheet = .second
+                } label: {
+                    CircleButton(buttonColor: .blue, buttonText: "second")
+                }
+                
+            }//】 HStack
             Spacer()
         }//】 VStack
         .sheet(item: $activeSheet) { item in
@@ -45,6 +48,7 @@ struct nothing2: View {
                 
             }
         }//】 Sheet
+        
     }//】 Body
 }
     
