@@ -36,19 +36,19 @@ struct _4_AnimationBasic3: View {
             }//】 Button
             .scaleEffect(Animation ? 1.5 : 0.7)
             
-            AnimationBox(startColor: Color.yellow, finishColor: Color.mint,
+            AnimationBox(startColor: Color.orange, finishColor: Color.red,
                      startLocation: .topLeading, finishLocation: .bottomLeading,
                          Animation: Animation)
             
-            AnimationBox(startColor: Color.pink, finishColor: Color.yellow,
+            AnimationBox(startColor: Color.pink, finishColor: Color.indigo,
                      startLocation: .bottomLeading, finishLocation: .bottomTrailing,
                          Animation: Animation)
             
-            AnimationBox(startColor: Color.purple, finishColor: Color.pink,
+            AnimationBox(startColor: Color.purple, finishColor: Color.green,
                      startLocation: .bottomTrailing, finishLocation: .topTrailing,
                          Animation: Animation)
             
-            AnimationBox(startColor: Color.mint, finishColor: Color.purple,
+            AnimationBox(startColor: Color.mint, finishColor: Color.yellow,
                      startLocation: .topTrailing, finishLocation: .topLeading,
                          Animation: Animation)
             
@@ -73,12 +73,14 @@ struct AnimationBox: View {
     var body: some View {
         
         VStack{
-            RoundedRectangle(cornerRadius: 30)
+            RoundedRectangle(cornerRadius: Animation ? 30 : 70)
                 .foregroundColor(Animation ? startColor : finishColor)
-                .frame(width: 100, height: 100)
+                .frame(width: Animation ? 100 : 150,
+                       height: Animation ? 100 : 150)
                 .rotationEffect(Angle(degrees: Animation ? 0 : 720))
         }
-        .frame(width: 380, height: 500, alignment: Animation ? startLocation : finishLocation)
+
+        .frame(width: 380, height: 780, alignment: Animation ? startLocation : finishLocation)
     }//】 Body
     
 }//: struct
