@@ -17,18 +17,18 @@ struct FruitBasicView: View {
     // 3️⃣ @EnvironmentObject → Navigation 또는 Sheet 사용시
     
 //  @ObservedObject var fruitViewModel = FruitViewModel()
-    @StateObject var 과일뷰모델 = FruitViewModel()
+    @StateObject var FruitVM = FruitViewModel()
     
     // Body
     var body: some View {
         
         NavigationView {
             List{
-                if 과일뷰모델.isLoading {
+                if FruitVM.isLoading {
                     ProgressView()
                 }else {
                     
-                    ForEach(과일뷰모델.fruitArray){ fruit in
+                    ForEach(FruitVM.fruitArray){ fruit in
                         
                         HStack (spacing: 20){
                             Text("\(fruit.count)")
@@ -51,7 +51,7 @@ struct FruitBasicView: View {
                 trailing:
                     // 상단 우측 아이콘에 Link 버튼 생성
                     NavigationLink{
-                        SecondScreen( 과일뷰모델2 : 과일뷰모델)
+                        SecondScreen( FruitVM : FruitVM)
                     } label: {
                         Image(systemName: "arrow.right")
                             .font(.title)
@@ -69,7 +69,7 @@ struct FruitBasicView: View {
 // SecondScreen
 struct SecondScreen: View {
     // property
-    @ObservedObject var 과일뷰모델2 = FruitViewModel()
+    @ObservedObject var FruitVM = FruitViewModel()
     @Environment (\.presentationMode) var 프리젠테이션모드
     
     var body: some View {
@@ -79,7 +79,7 @@ struct SecondScreen: View {
             VStack(spacing: 20){
                 //리스트 생성
                 List{
-                    ForEach(과일뷰모델2.fruitArray){ fruit in
+                    ForEach(FruitVM.fruitArray){ fruit in
                         Text(fruit.name)
                             .font(.headline)
                             .foregroundColor(.green)

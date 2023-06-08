@@ -11,15 +11,11 @@ import SwiftUI
 struct _4_AnimationBasic3: View {
     
     //property
-    @State var 에니메이션: Bool = true
-    
-    let 시간: Double = 0.5
+    @State var Animation: Bool = true
     
     var body: some View {
         
         
-        
-        /// : [3] - Spring animation
         ZStack{
             
             Button {
@@ -28,7 +24,7 @@ struct _4_AnimationBasic3: View {
                     response: 0.5,
                     dampingFraction: 0.5,
                     blendDuration: 0)) {
-                        에니메이션.toggle()
+                        Animation.toggle()
                     }
                 //respose : 단일 진동 시간
                 //dampingFraction : 흔들임 정지 속도 (0일때 영원히 안멈춤) 0.0 ~ 1.0
@@ -36,48 +32,56 @@ struct _4_AnimationBasic3: View {
                 
             } label: {
                 Text("Button")
-            }
+            }//】 Button
             
-            VStack{
-                RoundedRectangle(cornerRadius: 15)
-                    .foregroundColor(에니메이션 ? Color.yellow : Color.pink)
-                    .frame(width: 100, height: 100)
-                    .rotationEffect(Angle(degrees: 에니메이션 ? 0 : 720))
-            }
-            .frame(width: 380, height: 800, alignment: 에니메이션 ? .topLeading : .bottomLeading)
+            AnimationBox(startColor: Color.yellow, finishColor: Color.mint,
+                     startLocation: .topLeading, finishLocation: .bottomLeading,
+                         Animation: Animation)
             
+            AnimationBox(startColor: Color.pink, finishColor: Color.yellow,
+                     startLocation: .bottomLeading, finishLocation: .bottomTrailing,
+                         Animation: Animation)
             
-            VStack{
-                RoundedRectangle(cornerRadius: 15)
-                    .foregroundColor(에니메이션 ? Color.pink : Color.purple)
-                    .frame(width: 100, height: 100)
-                    .rotationEffect(Angle(degrees: 에니메이션 ? 0 : 720))
-            }
-            .frame(width: 380, height: 800, alignment: 에니메이션 ? .bottomLeading : .bottomTrailing)
+            AnimationBox(startColor: Color.purple, finishColor: Color.pink,
+                     startLocation: .bottomTrailing, finishLocation: .topTrailing,
+                         Animation: Animation)
             
-            VStack{
-                RoundedRectangle(cornerRadius: 15)
-                    .foregroundColor(에니메이션 ? Color.purple : Color.mint)
-                    .frame(width: 100, height: 100)
-                    .rotationEffect(Angle(degrees: 에니메이션 ? 0 : 720))
-            }
-            .frame(width: 380, height: 800, alignment: 에니메이션 ? .bottomTrailing :.topTrailing)
+            AnimationBox(startColor: Color.mint, finishColor: Color.purple,
+                     startLocation: .topTrailing, finishLocation: .topLeading,
+                         Animation: Animation)
             
-            VStack{
-                RoundedRectangle(cornerRadius: 15)
-                    .foregroundColor(에니메이션 ? Color.mint : Color.yellow)
-                    .frame(width: 100, height: 100)
-                    .rotationEffect(Angle(degrees: 에니메이션 ? 0 : 720))
-            }
-            .frame(width: 380, height: 800, alignment: 에니메이션 ? .topTrailing : .topLeading)
+        }//】 ZStack
+    
             
-        }
-        // : [3] 끝
-        
-        
-        
-    }
+    }//】 Body
+    
+    
 }
+
+
+struct AnimationBox: View {
+    
+    //property
+    let startColor : Color
+    let finishColor : Color
+    let startLocation : Alignment
+    let finishLocation : Alignment
+    var Animation: Bool = true
+    
+    var body: some View {
+        
+        VStack{
+            RoundedRectangle(cornerRadius: 30)
+                .foregroundColor(Animation ? startColor : finishColor)
+                .frame(width: 100, height: 100)
+                .rotationEffect(Angle(degrees: Animation ? 0 : 720))
+        }
+        .frame(width: 380, height: 800, alignment: Animation ? startLocation : finishLocation)
+    }//】 Body
+    
+}//: struct
+
+
 
 struct _4_AnimationBasic3_Previews: PreviewProvider {
     static var previews: some View {
