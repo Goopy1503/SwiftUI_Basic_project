@@ -17,9 +17,10 @@ struct CircleButton: View {
         ZStack{
             Circle()
                 .foregroundColor(buttonColor)
-                .frame(width: 100, height: 100)
+                .frame(width: 60, height: 60)
             Text(buttonText)
                 .foregroundColor(.white)
+                .fontWeight(.bold)
             
         }
     }

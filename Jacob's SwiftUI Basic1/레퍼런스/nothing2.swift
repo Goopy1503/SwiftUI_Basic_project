@@ -24,6 +24,7 @@ struct nothing2: View {
                 activeSheet = .first
             } label: {
                 CircleButton(buttonColor: .red, buttonText: "first")
+                    .frame(width: 30, height: 30)
             }
             
             Button {
