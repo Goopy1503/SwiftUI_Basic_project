@@ -36,7 +36,6 @@
 		F38EDFB729E1BFE90063C8B9 /* 16.SafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFB629E1BFE90063C8B9 /* 16.SafeAreaBasic.swift */; };
 		F38EDFB929E1C5170063C8B9 /* 17.ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFB829E1C5170063C8B9 /* 17.ButtonBasic.swift */; };
 		F38EDFBC29E1CD860063C8B9 /* 19.StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFBB29E1CD860063C8B9 /* 19.StateBasic.swift */; };
-		F3B21FBA2A306C7A00EE176A /* .gitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B21FB92A306C7A00EE176A /* .gitignore.swift */; };
 		F3C4B8CF29E2A39600ECD5C4 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8CE29E2A39600ECD5C4 /* BindingChild.swift */; };
 		F3C4B8D129E2A52E00ECD5C4 /* 21.BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8D029E2A52E00ECD5C4 /* 21.BindingBasic.swift */; };
 		F3C4B8D329E2B64300ECD5C4 /* 22.ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8D229E2B64300ECD5C4 /* 22.ConditionalBasic.swift */; };
@@ -52,7 +51,7 @@
 		F3C4B8ED29E5C9C600ECD5C4 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8EC29E5C9C600ECD5C4 /* ContextMenu.swift */; };
 		F3C4B8EF29E5CDFE00ECD5C4 /* ActonSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8EE29E5CDFE00ECD5C4 /* ActonSheetBasic.swift */; };
 		F3C4B8F329E701B600ECD5C4 /* textFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8F229E701B600ECD5C4 /* textFieldBasic.swift */; };
-		F3D6727A2A08295700A262FE /* notiong.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D672792A08295700A262FE /* notiong.swift */; };
+		F3D6727A2A08295700A262FE /* nothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D672792A08295700A262FE /* nothing.swift */; };
 		F3D6727C2A082A6F00A262FE /* nothing2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D6727B2A082A6F00A262FE /* nothing2.swift */; };
 		F3D6727E2A082A9500A262FE /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D6727D2A082A9500A262FE /* FirstView.swift */; };
 		F3D672802A082A9C00A262FE /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D6727F2A082A9C00A262FE /* SecondView.swift */; };
@@ -108,7 +107,6 @@
 		F38EDFB629E1BFE90063C8B9 /* 16.SafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16.SafeAreaBasic.swift; sourceTree = "<group>"; };
 		F38EDFB829E1C5170063C8B9 /* 17.ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17.ButtonBasic.swift; sourceTree = "<group>"; };
 		F38EDFBB29E1CD860063C8B9 /* 19.StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19.StateBasic.swift; sourceTree = "<group>"; };
-		F3B21FB92A306C7A00EE176A /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
 		F3C4B8CE29E2A39600ECD5C4 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		F3C4B8D029E2A52E00ECD5C4 /* 21.BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.BindingBasic.swift; sourceTree = "<group>"; };
 		F3C4B8D229E2B64300ECD5C4 /* 22.ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.ConditionalBasic.swift; sourceTree = "<group>"; };
@@ -124,7 +122,7 @@
 		F3C4B8EC29E5C9C600ECD5C4 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		F3C4B8EE29E5CDFE00ECD5C4 /* ActonSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActonSheetBasic.swift; sourceTree = "<group>"; };
 		F3C4B8F229E701B600ECD5C4 /* textFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldBasic.swift; sourceTree = "<group>"; };
-		F3D672792A08295700A262FE /* notiong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notiong.swift; sourceTree = "<group>"; };
+		F3D672792A08295700A262FE /* nothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nothing.swift; sourceTree = "<group>"; };
 		F3D6727B2A082A6F00A262FE /* nothing2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nothing2.swift; sourceTree = "<group>"; };
 		F3D6727D2A082A9500A262FE /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		F3D6727F2A082A9C00A262FE /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 			children = (
 				F321868329DC350E007DF670 /* Assets.xcassets */,
 				F321867E29DC350D007DF670 /* Jacob's SwiftUI Basic1 */,
-				F3B21FB92A306C7A00EE176A /* .gitignore.swift */,
 				F321867D29DC350D007DF670 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -280,7 +277,7 @@
 		F3D672812A083B9E00A262FE /* 레퍼런스 */ = {
 			isa = PBXGroup;
 			children = (
-				F3D672792A08295700A262FE /* notiong.swift */,
+				F3D672792A08295700A262FE /* nothing.swift */,
 				F3D6727B2A082A6F00A262FE /* nothing2.swift */,
 				F3D6727D2A082A9500A262FE /* FirstView.swift */,
 				F3D6727F2A082A9C00A262FE /* SecondView.swift */,
@@ -416,7 +413,7 @@
 				F3F4860129DFE673008E3D5C /* 5.IconBasic.swift in Sources */,
 				F3F4860929E03BE0008E3D5C /* 9. StackBasic.swift in Sources */,
 				F352C05F29EC2797002193B6 /* IOSDeviceViewModel.swift in Sources */,
-				F3D6727A2A08295700A262FE /* notiong.swift in Sources */,
+				F3D6727A2A08295700A262FE /* nothing.swift in Sources */,
 				F324F01229E71E1500401DF8 /* ColorPickerBasic.swift in Sources */,
 				F3C4B8D329E2B64300ECD5C4 /* 22.ConditionalBasic.swift in Sources */,
 				F3FF6AA129E16754001B0BA2 /* 10.PaddingBasic.swift in Sources */,
@@ -465,7 +462,6 @@
 				F3C4B8D729E2EA4C00ECD5C4 /* 24.AnimationBasic.swift in Sources */,
 				F3C4B8D929E30DEA00ECD5C4 /* 25.TransitionBasic.swift in Sources */,
 				F38EDFB129E18C0F0063C8B9 /* 13.InitEnumBasic.swift in Sources */,
-				F3B21FBA2A306C7A00EE176A /* .gitignore.swift in Sources */,
 				F3F485FF29DFDD82008E3D5C /* 4.GradientBasic.swift in Sources */,
 				F38EDFB929E1C5170063C8B9 /* 17.ButtonBasic.swift in Sources */,
 			);

@@ -7,9 +7,8 @@
 
 import SwiftUI
 
-struct notiong: View {
+struct nothing: View {
     @State private var firstIsPresented = false
-    @State private var secondIsPresented = false
         
     var body: some View {
         NavigationView {
@@ -24,17 +23,17 @@ struct notiong: View {
                 .scaleEffect(firstIsPresented ? 1 : 0.7)
                 Spacer()
             }
-//            .sheet(isPresented: $firstIsPresented) {
-//                Text("Only the second modal view works!")
-//                    .presentationDetents([.medium, .large])
-//            }
+            .sheet(isPresented: $firstIsPresented) {
+                Text("Only the second modal view works!")
+                    .presentationDetents([.medium, .large])
+            }
                 
             }//】 Navigation
     }//】 Body
 }
 
-struct notiong_Previews: PreviewProvider {
+struct nothing_Previews: PreviewProvider {
     static var previews: some View {
-        notiong()
+        nothing()
     }
 }
