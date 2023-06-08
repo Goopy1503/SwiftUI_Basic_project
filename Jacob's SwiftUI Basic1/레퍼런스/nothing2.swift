@@ -10,8 +10,8 @@ import SwiftUI
 enum ActiveSheet: Identifiable {
     case first, second
     
-    var id: Int {
-        hashValue
+    var id: Bool {
+        (hashValue != 0)
     }
 }
 
@@ -19,20 +19,22 @@ struct nothing2: View {
     @State var activeSheet: ActiveSheet?
     
     var body: some View {
+        
         VStack{
             HStack {
                 Button {
                     activeSheet = .first
                 } label: {
                     CircleButton(buttonColor: .red, buttonText: "first")
-                    
-                }
+                }//】 Button
+                .scaleEffect(activeSheet == .first ? 1 : 0.7)
                 
                 Button {
                     activeSheet = .second
                 } label: {
                     CircleButton(buttonColor: .blue, buttonText: "second")
-                }
+                }//】 Button
+                .scaleEffect(activeSheet == .second ? 1 : 0.7)
                 
             }//】 HStack
             Spacer()
@@ -45,9 +47,13 @@ struct nothing2: View {
             case .second:
                 SecondView()
                     .presentationDetents([.medium, .large])
-                
             }
         }//】 Sheet
+        
+        
+        
+   
+        
         
     }//】 Body
 }

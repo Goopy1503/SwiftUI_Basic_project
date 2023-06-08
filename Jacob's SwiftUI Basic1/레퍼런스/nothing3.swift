@@ -23,7 +23,8 @@ struct nothing3: View {
                 }
                 .scaleEffect(firstIsPresented ? 1 : 0.7)
                 Spacer()
-            }
+                
+            }//】 VStack
             .sheet(isPresented: $firstIsPresented) {
                 Text("Only the second modal view works!")
                     .presentationDetents([.medium, .large])
