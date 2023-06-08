@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum ActiveSheet: Identifiable {
-    case first, second
+    case first, second, thrid
     
     var id: Bool {
         (hashValue != 0)
@@ -22,6 +22,7 @@ struct nothing2: View {
         
         VStack{
             HStack {
+                /// 버튼1
                 Button {
                     activeSheet = .first
                 } label: {
@@ -29,6 +30,7 @@ struct nothing2: View {
                 }//】 Button
                 .scaleEffect(activeSheet == .first ? 1 : 0.7)
                 
+                /// 버튼2
                 Button {
                     activeSheet = .second
                 } label: {
@@ -36,17 +38,32 @@ struct nothing2: View {
                 }//】 Button
                 .scaleEffect(activeSheet == .second ? 1 : 0.7)
                 
+                /// 버튼3
+                Button {
+                    activeSheet = .thrid
+                } label: {
+                    CircleButton(buttonColor: .yellow, buttonText: "thrid")
+                }//】 Button
+                .scaleEffect(activeSheet == .thrid ? 1 : 0.7)
+                
+                
             }//】 HStack
             Spacer()
         }//】 VStack
         .sheet(item: $activeSheet) { item in
             switch item {
+                
             case .first:
                 FirstView()
                     .presentationDetents([.medium, .large])
             case .second:
                 SecondView()
                     .presentationDetents([.medium, .large])
+                
+            case .thrid:
+                SecondView()
+                    .presentationDetents([.medium, .large])
+                
             }
         }//】 Sheet
         

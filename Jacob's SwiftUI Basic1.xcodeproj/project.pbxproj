@@ -37,6 +37,8 @@
 		F38EDFB929E1C5170063C8B9 /* 17.ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFB829E1C5170063C8B9 /* 17.ButtonBasic.swift */; };
 		F38EDFBC29E1CD860063C8B9 /* 19.StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFBB29E1CD860063C8B9 /* 19.StateBasic.swift */; };
 		F3B21FBC2A31A97400EE176A /* nothing3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B21FBB2A31A97400EE176A /* nothing3.swift */; };
+		F3B21FC02A31C7ED00EE176A /* 24.AnimationBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B21FBF2A31C7ED00EE176A /* 24.AnimationBasic2.swift */; };
+		F3B21FC22A31C7F600EE176A /* 24.AnimationBasic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B21FC12A31C7F600EE176A /* 24.AnimationBasic3.swift */; };
 		F3C4B8CF29E2A39600ECD5C4 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8CE29E2A39600ECD5C4 /* BindingChild.swift */; };
 		F3C4B8D129E2A52E00ECD5C4 /* 21.BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8D029E2A52E00ECD5C4 /* 21.BindingBasic.swift */; };
 		F3C4B8D329E2B64300ECD5C4 /* 22.ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8D229E2B64300ECD5C4 /* 22.ConditionalBasic.swift */; };
@@ -109,6 +111,8 @@
 		F38EDFB829E1C5170063C8B9 /* 17.ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17.ButtonBasic.swift; sourceTree = "<group>"; };
 		F38EDFBB29E1CD860063C8B9 /* 19.StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19.StateBasic.swift; sourceTree = "<group>"; };
 		F3B21FBB2A31A97400EE176A /* nothing3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nothing3.swift; sourceTree = "<group>"; };
+		F3B21FBF2A31C7ED00EE176A /* 24.AnimationBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.AnimationBasic2.swift; sourceTree = "<group>"; };
+		F3B21FC12A31C7F600EE176A /* 24.AnimationBasic3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24.AnimationBasic3.swift; sourceTree = "<group>"; };
 		F3C4B8CE29E2A39600ECD5C4 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		F3C4B8D029E2A52E00ECD5C4 /* 21.BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.BindingBasic.swift; sourceTree = "<group>"; };
 		F3C4B8D229E2B64300ECD5C4 /* 22.ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.ConditionalBasic.swift; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 				F3C4B8D229E2B64300ECD5C4 /* 22.ConditionalBasic.swift */,
 				F3C4B8D429E2E56E00ECD5C4 /* 23.TernaryOperatorsBasic.swift */,
 				F3C4B8D629E2EA4C00ECD5C4 /* 24.AnimationBasic.swift */,
+				F3B21FBF2A31C7ED00EE176A /* 24.AnimationBasic2.swift */,
+				F3B21FC12A31C7F600EE176A /* 24.AnimationBasic3.swift */,
 				F3C4B8D829E30DEA00ECD5C4 /* 25.TransitionBasic.swift */,
 			);
 			path = "Data & Animation";
@@ -406,6 +412,7 @@
 				F3D6727C2A082A6F00A262FE /* nothing2.swift in Sources */,
 				F3E837AA29EA70E4009F1323 /* FruitViewModel.swift in Sources */,
 				F3E837A429E9C114009F1323 /* UserModel.swift in Sources */,
+				F3B21FC02A31C7ED00EE176A /* 24.AnimationBasic2.swift in Sources */,
 				F38EDFBC29E1CD860063C8B9 /* 19.StateBasic.swift in Sources */,
 				F3C4B8E529E31F1000ECD5C4 /* NavigationBasic.swift in Sources */,
 				F3F4860529DFFB70008E3D5C /* 7.FrameBasic.swift in Sources */,
@@ -453,6 +460,7 @@
 				F3D672802A082A9C00A262FE /* SecondView.swift in Sources */,
 				F38EDFB729E1BFE90063C8B9 /* 16.SafeAreaBasic.swift in Sources */,
 				F324F01829E86BA700401DF8 /* TabviewBasic.swift in Sources */,
+				F3B21FC22A31C7F600EE176A /* 24.AnimationBasic3.swift in Sources */,
 				F3E9468E29ED5E1C00BBE3CF /* IOSDeviceView3.swift in Sources */,
 				F321869229DEDFE8007DF670 /* 3.Color.swift in Sources */,
 				F321868029DC350D007DF670 /* Jacob_s_SwiftUI_Basic1App.swift in Sources */,
