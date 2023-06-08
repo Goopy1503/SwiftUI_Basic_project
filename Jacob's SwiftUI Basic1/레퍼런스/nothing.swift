@@ -18,7 +18,7 @@ struct nothing: View {
                     self.firstIsPresented.toggle()
                     
                 } label: {
-                    CircleButton(buttonColor: .blue)
+                    CircleButton(buttonColor: .blue, buttonText: "button")
                 }
                 .scaleEffect(firstIsPresented ? 1 : 0.7)
                 Spacer()

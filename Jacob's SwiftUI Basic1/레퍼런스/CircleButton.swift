@@ -11,13 +11,14 @@ struct CircleButton: View {
     
     //property
     let buttonColor : Color
+    let buttonText : String
     
     var body: some View {
         ZStack{
             Circle()
                 .foregroundColor(buttonColor)
                 .frame(width: 100, height: 100)
-            Text("Button")
+            Text(buttonText)
                 .foregroundColor(.white)
             
         }
@@ -26,6 +27,6 @@ struct CircleButton: View {
 
 struct CircleButton_Previews: PreviewProvider {
     static var previews: some View {
-        CircleButton(buttonColor: .green)
+        CircleButton(buttonColor: .green, buttonText: "Button")
     }
 }
