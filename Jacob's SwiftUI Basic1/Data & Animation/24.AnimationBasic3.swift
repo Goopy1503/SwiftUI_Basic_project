@@ -35,19 +35,19 @@ struct _4_AnimationBasic3: View {
             }//】 Button
             
             AnimationBox(startColor: Color.yellow, finishColor: Color.mint,
-                     startLocation: .topLeading, finishLocation: .bottomLeading,
+                     startLocation: .topLeading, finishLocation: .bottomTrailing,
                          Animation: Animation)
             
             AnimationBox(startColor: Color.pink, finishColor: Color.yellow,
-                     startLocation: .bottomLeading, finishLocation: .bottomTrailing,
+                     startLocation: .bottomLeading, finishLocation: .topTrailing,
                          Animation: Animation)
             
             AnimationBox(startColor: Color.purple, finishColor: Color.pink,
-                     startLocation: .bottomTrailing, finishLocation: .topTrailing,
+                     startLocation: .bottomTrailing, finishLocation: .topLeading,
                          Animation: Animation)
             
             AnimationBox(startColor: Color.mint, finishColor: Color.purple,
-                     startLocation: .topTrailing, finishLocation: .topLeading,
+                     startLocation: .topTrailing, finishLocation: .bottomLeading,
                          Animation: Animation)
             
         }//】 ZStack
