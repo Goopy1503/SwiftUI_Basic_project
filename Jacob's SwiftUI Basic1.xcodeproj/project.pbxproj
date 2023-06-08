@@ -36,6 +36,7 @@
 		F38EDFB729E1BFE90063C8B9 /* 16.SafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFB629E1BFE90063C8B9 /* 16.SafeAreaBasic.swift */; };
 		F38EDFB929E1C5170063C8B9 /* 17.ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFB829E1C5170063C8B9 /* 17.ButtonBasic.swift */; };
 		F38EDFBC29E1CD860063C8B9 /* 19.StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38EDFBB29E1CD860063C8B9 /* 19.StateBasic.swift */; };
+		F3B21FBC2A31A97400EE176A /* nothing3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B21FBB2A31A97400EE176A /* nothing3.swift */; };
 		F3C4B8CF29E2A39600ECD5C4 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8CE29E2A39600ECD5C4 /* BindingChild.swift */; };
 		F3C4B8D129E2A52E00ECD5C4 /* 21.BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8D029E2A52E00ECD5C4 /* 21.BindingBasic.swift */; };
 		F3C4B8D329E2B64300ECD5C4 /* 22.ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C4B8D229E2B64300ECD5C4 /* 22.ConditionalBasic.swift */; };
@@ -107,6 +108,7 @@
 		F38EDFB629E1BFE90063C8B9 /* 16.SafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16.SafeAreaBasic.swift; sourceTree = "<group>"; };
 		F38EDFB829E1C5170063C8B9 /* 17.ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17.ButtonBasic.swift; sourceTree = "<group>"; };
 		F38EDFBB29E1CD860063C8B9 /* 19.StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19.StateBasic.swift; sourceTree = "<group>"; };
+		F3B21FBB2A31A97400EE176A /* nothing3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nothing3.swift; sourceTree = "<group>"; };
 		F3C4B8CE29E2A39600ECD5C4 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		F3C4B8D029E2A52E00ECD5C4 /* 21.BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21.BindingBasic.swift; sourceTree = "<group>"; };
 		F3C4B8D229E2B64300ECD5C4 /* 22.ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22.ConditionalBasic.swift; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 			children = (
 				F3D672792A08295700A262FE /* nothing.swift */,
 				F3D6727B2A082A6F00A262FE /* nothing2.swift */,
+				F3B21FBB2A31A97400EE176A /* nothing3.swift */,
 				F3D6727D2A082A9500A262FE /* FirstView.swift */,
 				F3D6727F2A082A9C00A262FE /* SecondView.swift */,
 				F3214A1F2A0E166300993AED /* CircleButton.swift */,
@@ -430,6 +433,7 @@
 				F3FF6AA329E16BCC001B0BA2 /* 11.SpacerBasic.swift in Sources */,
 				F3C4B8E929E5848200ECD5C4 /* ListBasic.swift in Sources */,
 				F3E837A829EA7099009F1323 /* FruitModel.swift in Sources */,
+				F3B21FBC2A31A97400EE176A /* nothing3.swift in Sources */,
 				F3C4B8D529E2E56E00ECD5C4 /* 23.TernaryOperatorsBasic.swift in Sources */,
 				F3FF6AA529E17AD9001B0BA2 /* 12.ScrollViewBasic.swift in Sources */,
 				F324F01029E716B900401DF8 /* PickerBasic.swift in Sources */,
