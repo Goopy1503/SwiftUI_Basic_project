@@ -280,8 +280,8 @@
 			isa = PBXGroup;
 			children = (
 				F3D672792A08295700A262FE /* nothing.swift */,
-				F3D6727B2A082A6F00A262FE /* nothing2.swift */,
 				F3B21FBB2A31A97400EE176A /* nothing3.swift */,
+				F3D6727B2A082A6F00A262FE /* nothing2.swift */,
 				F3D6727D2A082A9500A262FE /* FirstView.swift */,
 				F3D6727F2A082A9C00A262FE /* SecondView.swift */,
 				F3214A1F2A0E166300993AED /* CircleButton.swift */,
