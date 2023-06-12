@@ -80,7 +80,7 @@ struct AnimationBox: View {
                 .rotationEffect(Angle(degrees: Animation ? 0 : 720))
         }
 
-        .frame(width: 380, height: 780, alignment: Animation ? startLocation : finishLocation)
+        .frame(width: 380, height: 500, alignment: Animation ? startLocation : finishLocation)
     }//】 Body
     
 }//: struct
