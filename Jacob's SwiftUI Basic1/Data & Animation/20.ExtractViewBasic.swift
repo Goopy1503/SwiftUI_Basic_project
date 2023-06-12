@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _0_ExtractViewBasic: View {
+struct ExtractViewBasic: View {
     //property
     @State var BGColor : Color = Color.pink
     
@@ -60,8 +60,8 @@ struct _0_ExtractViewBasic: View {
 
 
 
-struct _0_ExtractViewBasic_Previews: PreviewProvider {
+struct ExtractViewBasic_Previews: PreviewProvider {
     static var previews: some View {
-        _0_ExtractViewBasic()
+        ExtractViewBasic()
     }
 }

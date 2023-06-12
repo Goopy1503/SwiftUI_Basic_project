@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _0_ExtractSubViewBasic: View {
+struct ExtractSubViewBasic: View {
     var body: some View {
         
         ZStack{
@@ -45,8 +45,8 @@ struct _0_ExtractSubViewBasic: View {
 
 
 
-struct _0_ExtractSubViewBasic_Previews: PreviewProvider {
+struct ExtractSubViewBasic_Previews: PreviewProvider {
     static var previews: some View {
-        _0_ExtractSubViewBasic()
+        ExtractSubViewBasic()
     }
 }

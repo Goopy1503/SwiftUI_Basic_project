@@ -8,7 +8,7 @@
 import SwiftUI
 
 //Animation == 시작/ 상태변화/ 도착 3가지 단계로 로직 실행
-struct _4_AnimationBasic3: View {
+struct AnimationBasic3: View {
     
     //property
     @State var Animation: Bool = true
@@ -87,8 +87,8 @@ struct AnimationBox: View {
 
 
 
-struct _4_AnimationBasic3_Previews: PreviewProvider {
+struct AnimationBasic3_Previews: PreviewProvider {
     static var previews: some View {
-        _4_AnimationBasic3()
+        AnimationBasic3()
     }
 }

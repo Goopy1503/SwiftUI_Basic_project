@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _5_TransitionBasic: View {
+struct TransitionBasic: View {
     
     //property
     @State var condition :Bool = false
@@ -52,8 +52,8 @@ struct _5_TransitionBasic: View {
     }
 }
 
-struct _5_TransitionBasic_Previews: PreviewProvider {
+struct TransitionBasic_Previews: PreviewProvider {
     static var previews: some View {
-        _5_TransitionBasic()
+        TransitionBasic()
     }
 }
