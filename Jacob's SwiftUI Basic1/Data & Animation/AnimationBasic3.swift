@@ -48,7 +48,7 @@ struct AnimationBasic3: View {
                      startLocation: .bottomTrailing, finishLocation: .topTrailing,
                          Animation: Animation)
             
-            AnimationBox(startColor: Color.mint, finishColor: Color.yellow,
+            AnimationBox(startColor: Color.teal, finishColor: Color.yellow,
                      startLocation: .topTrailing, finishLocation: .topLeading,
                          Animation: Animation)
             
